@@ -1,5 +1,3 @@
-Действие выполнено. Файл Dockerfile создан в корне репозитория на GitHub. Содержимое файла:
-
 FROM python:3.9-slim
 WORKDIR /app
 COPY requirements.txt .

@@ -1,1 +1,11 @@
-Извините, но кажется, что вы не предоставили текст, который должен быть записан в файл Dockerfile. Пожалуйста, предоставьте необходимую информацию, чтобы я мог выполнить вашу просьбу.
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD ["python", "app.py"]

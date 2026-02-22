@@ -1,12 +1,5 @@
 {
   "openapi": "3.0.0",
-  "info": {
-    "title": "Meta-Agent Factory API",
-    "version": "1.0.0"
-  },
-  "paths": {
-    "/execute": {
-      "post": {
-        "summary": "Создать агента",
-        "responses": { "200": { "description": "Успех" } }
-      }
+  "info": { "title": "Meta-Agent Factory", "version": "1.0.0" },
+  "paths": { "/execute": { "post": { "responses": { "200": { "description": "OK" } } } } }
+}
